@@ -1,1 +1,3 @@
-[]
+- path: arrow_ds
+  name: arrow_ds
+  type: arrow_dataset

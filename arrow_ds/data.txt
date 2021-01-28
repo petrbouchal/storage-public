@@ -1,0 +1,11 @@
+path: arrow_files/part-0.parquet
+columns:
+- Ozone
+- Solar.R
+- Wind
+- Temp
+- Day
+- Month
+type: arrow_dataset
+filenames:
+  arrow_files/part-0.parquet: arrow_files/part-0.parquet
