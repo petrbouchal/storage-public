@@ -1,4 +1,6 @@
-path: arrow_files/part-0.parquet
+path: 
+- arrow_files/part-0.parquet
+- data.rds
 columns:
 - Ozone
 - Solar.R
@@ -8,4 +10,5 @@ columns:
 - Month
 type: arrow_dataset
 filenames:
-  arrow_files/part-0.parquet: arrow_files/part-0.parquet data.rds: data.rds
+ - arrow_files/part-0.parquet: arrow_files/part-0.parquet
+ - data.rds: data.rds
